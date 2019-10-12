@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Web Design University</title> <link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="myPage">
+
+<!-- Navbar -->
+<div class="top-position">
+ <div class="bar-Style theme-background-14 left-position-align">
+  <a class="bar-Style-item Button-1 w3-right hover-white theme-background-14" href="javascript:void(0);" onclick="openNav()"></a>
+  <a href="index.html" class="bar-Style-item Button-1 blue">WDU</a>
+
+  <!-- Departments Dropdown -->
+    <div class="dropdown-hover"> <!--THIS SHOULD BE CALLED a "Dropdown BREADCRUMB"-->
+    <a class="Button-1">Departments </a>
+    <div class="dropdown-content bar-Style-block">
+      <a href="CS\index.html" class="bar-Style-item Button-1">Computer Science</a>
+      <a href="MATH\index.html" class="bar-Style-item Button-1">Mathematics</a>
+    </div>
+  </div>
+
+  <!-- Courses Dropdown -->
+    <div class="dropdown-hover">
+    <a class="Button-1">Courses</a>
+    <div class="dropdown-content bar-Style-block">
+    </a> <a href="CS\machine_learning.html" class="bar-Style-item Button-1">Machine Learning</a>
+    <a href="CS\web_design.html" class="bar-Style-item Button-1">Web Design</a>
+    <a href="MATH\calculus.html" class="bar-Style-item Button-1">Calculus</a>
+    <a href="MATH\statistics.html" class="bar-Style-item Button-1">Statistics</a>
+    </div>
+  </div>
+  <!-- Cache "BREADCRUMB" -->
+  <a href="cache.html" class="bar-Style-item Button-1">Browser Cache</a>
+
+  <a></a>
+ </div>
+</div>
+
+<!-- Image Header       ** NOTE: MAKE CENTER and Behind "WDU" block-->
+<div class="w3-display-container animate-Style-opacity">
+  <img src="img\homeBackground.png" align="middle" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container bottommiddle-position margin-Style-bottom">
+    <button class="Button-1 xlarge-font theme-background hover-blue" title="Learn to create modals!">Web Design University</button>
+  </div>
+</div>
+
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"12ad6cc57d4309d5c9c6ff79e","lid":"90f0e840cb","uniqueMethods":true}) })</script>
+
+</body>
+</html>
