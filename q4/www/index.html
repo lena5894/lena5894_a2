@@ -6,6 +6,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src='js/javaFunctions.js'> </script> <!--References the javascript page-->
+
 </head>
 
 
@@ -30,8 +32,6 @@
    </div>
   </div>
 
-
-
   <!-- Image Header       ** MAKE CENTER and Behind "WDU" block-->
   <div class="center-position" id="pricing">
     <div class="w3-container w3-display-bottommiddle margin-Style-bottom">
@@ -45,7 +45,7 @@
   <ul class="w3-ul">
   <li class="theme-background"><h1>ALPHA Donut</h1></li>
   <a href="alpha/index.html"><img src="img/pink_donut.png" alt="Pink Donut" align="middle" width=100% height=650px></a>
-  <li><cp202-a1-serif class="Button-1 blue"><a href="#"class="Button-1">GET DONUT!</a></cp202-a1-serif></li>
+  <li><cp202-a1-serif ><a href="#" onclick="myFunction()"class="Button-1 blue">GET DONUT!</a> </cp202-a1-serif></li>
   </ul>
 </div>
 
@@ -53,21 +53,11 @@
   <ul class="w3-ul">
   <li class="theme-background"><h1>BETA Donut</h1></li>
   <a href="beta/index.html"><img src="img/blue_donut.png" alt="Blue Donut" align="middle" width=100% height=650px></a>
-  <li><cp202-a1-serif class="Button-1 blue"><a href="#" class="Button-1">GET DONUT!</a> </cp202-a1-serif></li>
+  <li><cp202-a1-serif ><a href="#" onclick="myFunction()" class="Button-1 blue">GET DONUT!</a> </cp202-a1-serif></li>
+
   </ul>
 </div>
 </div>
-
-<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-<script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"12ad6cc57d4309d5c9c6ff79e","lid":"90f0e840cb","uniqueMethods":true}) })</script>
-
-<script>
-
-// Close Modal navigation
-function modal_close() {
-  document.getElementById("myModal").style.display = "none";}
-
-</script>
 
 </body>
 </html>
